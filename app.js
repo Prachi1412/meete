@@ -26,7 +26,6 @@ app.post('/user/login', user_panel.login);
 app.post('/user/signup', user_panel.signup);
 app.post('/user/update', upload.any(), user_panel.update);
 app.post('/user/delete', user_panel.delete);
-// app.post('/user/createprofile',user_panel.createprofile);
 app.listen(port, function() {
     console.log("Server is running on localhost on port" + port);
 });
